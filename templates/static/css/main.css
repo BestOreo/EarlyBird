@@ -1,0 +1,178 @@
+body{
+    font-family: "PingFang SC","Microsoft Yahei";
+}
+
+/*navbar*/
+.navbar-brand{
+    background-image: url(../img/logo.png);
+    width: 120px;
+    height: 40px;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.nav .navbar-nav{
+    font-size: 16px;
+}
+
+.navbar-form{
+    float:left;
+}
+
+.navbar-form input{
+    border-radius: 20px;
+    border:0.5px solid #4657D9;
+}
+
+.navbar-form .input-group-addon{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: #4657D9;
+    border: #4657D9;
+    color: white;
+}
+
+.navbar-form input:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar .nav-link a{
+    color:rgba(112,112,112,0.6);
+}
+
+
+.navbar .nav-link a:visited,
+.navbar .nav-link a:hover,
+.navbar .nav-link a:active,
+.navbar .nav-link a:focus{
+    color: rgba(112,112,112,1);
+    background: transparent;
+}
+
+
+
+
+
+/*banner*/
+.banner{
+    width:100%;
+    height:700px;
+    background-image: url(../img/banner.png);
+    background-size: cover;
+}
+
+.bannertext{
+    margin-top: 60px;
+}
+
+
+.bannerbutton *{
+    margin:60px 20px 0px 20px;
+    font-size: 16px;
+    color: white;
+    line-height: 200%;
+    width: 150px;    
+    height:50px;
+    border-radius: 25px;
+    background:#4657D9;
+    box-shadow: 0px 3px 8px #4657D9;
+}
+
+.bannerbutton a:hover{
+    background:transparent;
+    border: 2px solid #4657D9;
+    color:#4657D9;
+    font-weight: 500;
+    box-shadow: none;
+    transform: 400ms;
+}
+
+
+/*function list*/
+.function{
+    width:100%;
+    height:700px;
+    background-image: url(../img/background.png);
+    background-size: cover;
+    display:block;
+}
+
+.function .title{
+    margin-top:80px;
+}
+
+.function .title .line{
+    width: 40px;
+    border-top: 5px solid #707070;
+    height:40px;
+}
+
+.function .pic{
+    width: 200px;
+    height: 200px;
+    margin:auto auto;
+    display: block;
+    position: relative;
+    border-bottom: 20px;
+}
+
+.function img{
+    padding:24px 0;
+}
+
+.function h5,
+.function h4{
+    line-height: 170%;
+}
+
+.function h4{
+    margin-top: 20px;
+}
+
+.function .item a{
+    color: #707070;
+}
+
+.function .item a:hover{
+    text-decoration: none;
+    color:#4657D9;
+    font-weight: 500;
+}
+
+.function .btn{
+    margin-top: 60px;
+    margin-bottom: 80px;
+    line-height: 200%;
+    font-size: 16px;
+    color: white;
+    width: 150px;    
+    height:50px;
+    border-radius: 25px;
+    background:#4657D9;
+    box-shadow: 0px 3px 8px #4657D9;
+}
+.function .btn:hover{
+    background:transparent;
+    border: 2px solid #4657D9;
+    color:#4657D9;
+    font-weight: 500;
+    box-shadow: none;
+    transform: 400ms;
+}
+
+
+/*footert*/
+.footer .contact a{
+    text-decoration:none;
+    color:#707070;
+}
+
+.footer .contact a:hover{
+    color:#4657D9;
+}
+
+.footer .social img{
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
